@@ -4,10 +4,6 @@ An analytics dashboard pulling in API data (web)
 
 The repository was implemented with Vue.js + ASP.&#8203;NET Core Web API. The project backend runs on ASP.NET Core 6.0 and and frontend was created by Vue CLI 4.x.
 
-## Table of Contents
-
-* [Prerequisites](#prerequisites)
-* [Getting Started](#getting-started)
 
 ## Prerequisites
 
