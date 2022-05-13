@@ -1,5 +1,6 @@
 # AnalyticsDashboard
 An analytics dashboard pulling in API data (web)
+![image](https://user-images.githubusercontent.com/91881320/168186918-88ae4842-bdbc-4c82-914e-df42650e23fe.png)
 
 The repository was implemented with Vue.js + ASP.&#8203;NET Core Web API. The project backend runs on ASP.NET Core 6.0 and and frontend was created by Vue CLI 4.5.
 
