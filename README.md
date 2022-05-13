@@ -6,8 +6,6 @@ The repository was implemented with Vue.js + ASP.&#8203;NET Core Web API. The pr
 
 ## Table of Contents
 
-* [Features](#features)
-* [Used Technology Stack](#used-technology-stack)
 * [Prerequisites](#prerequisites)
 * [Getting Started](#getting-started)
 
