@@ -1,5 +1,8 @@
 import { createStore } from 'vuex'
 import axios from 'axios'
+
+const BASE_URL = "https://localhost:7145/api/Analytics";
+
 export default createStore({
     state: {
         products: [],
@@ -24,7 +27,7 @@ export default createStore({
 
       async fetchUsers({ commit }) {
           try {
-            const data = await axios.get('https://localhost:7145/api/Analytics/User')
+            const data = await axios.get(`${BASE_URL}/User`)
               commit('SET_USERS', data.data)
             }
             catch (error) {
@@ -34,7 +37,7 @@ export default createStore({
         },
          async fetchProducts({ commit }) {
           try {
-            const data = await axios.get('https://localhost:7145/api/Analytics/Products')
+            const data = await axios.get(`${BASE_URL}/Products`)
               commit('SET_PRODUCTS', data.data)
             }
             catch (error) {
@@ -44,7 +47,7 @@ export default createStore({
         },
          async fetchAllRevenues({ commit }) {
           try {
-            const data = await axios.get('https://localhost:7145/api/Analytics/Revenue')
+            const data = await axios.get(`${BASE_URL}/Revenue`)
               commit('SET_REVENUE', data.data)
             }
             catch (error) {
@@ -55,7 +58,7 @@ export default createStore({
         
         async fetchAllVisitor({ commit }) {
           try {
-            const data = await axios.get('https://localhost:7145/api/Analytics/Visitor')
+            const data = await axios.get(`${BASE_URL}/Visitor`)
               commit('SET_VISITOR', data.data)
             }
             catch (error) {
@@ -66,7 +69,7 @@ export default createStore({
         
         async fetchAllTransaction({ commit }) {
           try {
-            const data = await axios.get('https://localhost:7145/api/Analytics/Transaction')
+            const data = await axios.get(`${BASE_URL}/Transaction`)
               commit('SET_TRANSACTION', data.data)
             }
             catch (error) {
@@ -76,7 +79,7 @@ export default createStore({
         }, 
         async fetchAllReport({ commit }) {
           try {
-            const data = await axios.get('https://localhost:7145/api/Analytics/Report')
+            const data = await axios.get(`${BASE_URL}/Report`)
               commit('SET_REPORT', data.data)
             }
             catch (error) {
