@@ -2,7 +2,7 @@
 An analytics dashboard pulling in API data (web)
 ![image](https://user-images.githubusercontent.com/91881320/168187041-156f5656-eafd-41c8-85e7-c77d473cd8c5.png)
 
-The repository was implemented with Vue.js + ASP.&#8203;NET Core Web API. The project backend runs on ASP.NET Core 6.0 and and frontend was created by Vue CLI 4.5.
+The repository was implemented with Vue.js + ASP.&#8203;NET Core Web API. The project backend runs on ASP.NET Core 6.0 and and frontend was created by Vue CLI 4.x.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ The repository was implemented with Vue.js + ASP.&#8203;NET Core Web API. The pr
 
 * [.NET Core](https://www.microsoft.com/net/download/windows) >= 6.0
 * [NodeJS](https://nodejs.org/) >= 8.9
-* [Vue CLI](https://cli.vuejs.org/) >= 4.2
+* [Vue CLI](https://cli.vuejs.org/) >= Vue CLI 4.x 
 * Your favourite editor (I prefer [VS Code](https://code.visualstudio.com/)), or VS 2022
 
 ---
