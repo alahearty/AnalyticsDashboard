@@ -1,4 +1,4 @@
-# AnalyticsDashboard
+# Analytics Dashboard
 An analytics dashboard pulling in API data (web)
 ![image](https://user-images.githubusercontent.com/91881320/168187041-156f5656-eafd-41c8-85e7-c77d473cd8c5.png)
 
