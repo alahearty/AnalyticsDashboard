@@ -10,16 +10,18 @@ The repository was implemented with Vue.js + ASP.&#8203;NET Core Web API. The pr
 * [.NET Core](https://www.microsoft.com/net/download/windows) >= 6.0
 * [NodeJS](https://nodejs.org/) >= 8.9
 * [Vue CLI](https://cli.vuejs.org/) >= Vue CLI 4.x 
-* Your favourite editor (I prefer [VS Code](https://code.visualstudio.com/)), or VS 2022
-
+* Your favourite editor (I prefer [VS Code](https://code.visualstudio.com/))
 ---
 
 ## Steps in Running the Application
 
 There are two ways how to set up the project: one for people who want to create their own template and choose custom integrations and the other for developers who want to start with no configuration.
 
-## Step 1: After Cloning the Application
 
+## Step 1: To Run the application
+Caution: Run the API project before running the Frontend Project
+
+## Step 1: After Cloning the Application
 * Navigate to the backend project and open it with favorite text editor say VS Code or Visual Studio 2022 and build the project
  ## Backend Project setup
   ```
@@ -37,12 +39,5 @@ There are two ways how to set up the project: one for people who want to create 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## Step 2: Running the application
 
-Caution: Run the API project before running the Frontend Project
-
-### 1. Using the command line
-
-* Run the .NET application using `dotnet run`
-* Run the Vue Client using `npm run serve`
 
