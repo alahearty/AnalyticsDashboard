@@ -21,7 +21,7 @@ There are two ways how to set up the project: one for people who want to create 
 ## Step 1: To Run the application
 Caution: Run the API project before running the Frontend Project
 
-## Step 1: After Cloning the Application
+## Step 2: After Cloning the Application
 * Navigate to the backend project and open it with favorite text editor say VS Code or Visual Studio 2022 and build the project
  ## Backend Project setup
   ```
