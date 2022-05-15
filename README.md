@@ -22,6 +22,14 @@ There are two ways how to set up the project: one for people who want to create 
 
 * Navigate to the backend project and open it with favorite text editor say VS Code or Visual Studio 2022 and build the project
 * Navigate to the frontend project and open it with favorite text editor say VS Code and install node package modules
+  ## Project setup
+  ```
+  npm install
+  npm run build
+  npm run serve
+  ```
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Step 2: Running the application
 
