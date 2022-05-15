@@ -26,7 +26,7 @@ There are two ways how to set up the project: one for people who want to create 
   dotnet restore
   dotnet build
   dotnet run
-  
+  ```
 * Navigate to the frontend project and open it with favorite text editor say VS Code and install node package modules
   ## Frontend Project setup
   ```
