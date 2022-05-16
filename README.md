@@ -24,7 +24,7 @@ Caution: Run the API project before running the Frontend Project
 ## Step 2: After Cloning the Application
 ## Backend Project setup
 
-* Navigate to the backend project and open it with favorite text editor say VS Code or Visual Studio 2022 and build the project
+Navigate to the backend project and open it with favorite text editor say VS Code or Visual Studio 2022 and build the project
 ```
 dotnet restore
 dotnet build
