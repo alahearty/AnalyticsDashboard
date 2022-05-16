@@ -22,20 +22,21 @@ There are two ways how to set up the project: one for people who want to create 
 Caution: Run the API project before running the Frontend Project
 
 ## Step 2: After Cloning the Application
+## Backend Project setup
+
 * Navigate to the backend project and open it with favorite text editor say VS Code or Visual Studio 2022 and build the project
- ## Backend Project setup
-  ```
-  dotnet restore
-  dotnet build
-  dotnet run
-  ```
-* Navigate to the frontend project and open it with favorite text editor say VS Code and install node package modules
-  ## Frontend Project setup
-  ```
-  npm install
-  npm run build
-  npm run serve
-  ```
+```
+dotnet restore
+dotnet build
+dotnet run
+```
+## Frontend Project setup
+Navigate to the frontend project and open it with favorite text editor say VS Code and install node package modules
+```
+npm install
+npm run build
+npm run serve
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
