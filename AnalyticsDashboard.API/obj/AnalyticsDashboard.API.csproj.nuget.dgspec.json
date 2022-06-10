@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alapher.woriayibapri\\Desktop\\New Apps\\AnalyticsDashboard\\AnalyticsDashboard\\AnalyticsDashboard.API\\AnalyticsDashboard.API.csproj": {}
+    "C:\\Users\\alapher.woriayibapri\\Desktop\\SEPAL Projects\\alahearty\\AnalyticsDashboard\\AnalyticsDashboard.API\\AnalyticsDashboard.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alapher.woriayibapri\\Desktop\\New Apps\\AnalyticsDashboard\\AnalyticsDashboard\\AnalyticsDashboard.API\\AnalyticsDashboard.API.csproj": {
+    "C:\\Users\\alapher.woriayibapri\\Desktop\\SEPAL Projects\\alahearty\\AnalyticsDashboard\\AnalyticsDashboard.API\\AnalyticsDashboard.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alapher.woriayibapri\\Desktop\\New Apps\\AnalyticsDashboard\\AnalyticsDashboard\\AnalyticsDashboard.API\\AnalyticsDashboard.API.csproj",
+        "projectUniqueName": "C:\\Users\\alapher.woriayibapri\\Desktop\\SEPAL Projects\\alahearty\\AnalyticsDashboard\\AnalyticsDashboard.API\\AnalyticsDashboard.API.csproj",
         "projectName": "AnalyticsDashboard.API",
-        "projectPath": "C:\\Users\\alapher.woriayibapri\\Desktop\\New Apps\\AnalyticsDashboard\\AnalyticsDashboard\\AnalyticsDashboard.API\\AnalyticsDashboard.API.csproj",
+        "projectPath": "C:\\Users\\alapher.woriayibapri\\Desktop\\SEPAL Projects\\alahearty\\AnalyticsDashboard\\AnalyticsDashboard.API\\AnalyticsDashboard.API.csproj",
         "packagesPath": "C:\\Users\\alapher.woriayibapri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alapher.woriayibapri\\Desktop\\New Apps\\AnalyticsDashboard\\AnalyticsDashboard\\AnalyticsDashboard.API\\obj\\",
+        "outputPath": "C:\\Users\\alapher.woriayibapri\\Desktop\\SEPAL Projects\\alahearty\\AnalyticsDashboard\\AnalyticsDashboard.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
