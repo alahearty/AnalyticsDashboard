@@ -3,7 +3,6 @@
   <div class="card bg-white dark:bg-gray-800 w-full rounded-md p-5 shadow flex">
         <div class="p-2 max-w-sm">
              <slot></slot>
-         
         </div>
 
         <div class="block p-2 w-full">

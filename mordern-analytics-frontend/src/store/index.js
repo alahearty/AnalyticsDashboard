@@ -57,14 +57,24 @@ export default createStore({
         },
         
         async fetchAllVisitor({ commit }) {
-          try {
-            const data = await axios.get(`${BASE_URL}/Visitor`)
-              commit('SET_VISITOR', data.data)
-            }
-            catch (error) {
-                alert(error)
-                console.log(error)
-            }
+          return new Promise((resolve, reject) => {
+            axios.get(`${BASE_URL}/Visitor`)
+              .then(() => {
+                commit('SET_VISITOR', data.data);
+                resolve(data.data)
+              })
+              .catch(error => {
+                reject(error)
+              })
+          })
+          // try {
+          //   const data = await axios.get(`${BASE_URL}/Visitor`)
+          //     commit('SET_VISITOR', data.data)
+          //   }
+          //   catch (error) {
+          //       alert(error)
+          //       console.log(error)
+          //   }
         },
         
         async fetchAllTransaction({ commit }) {

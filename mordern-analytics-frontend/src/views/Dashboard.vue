@@ -1,10 +1,10 @@
 <template>
   <div class="dashboard p-4">
-    <nav class="flex" aria-label="Breadcrumb">
+    <nav class="flex mt-5" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
           <a href="#" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
-            <svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
             </svg>
             Dashboard
@@ -307,40 +307,40 @@
       ChartComponent,
       Card
     },
+    computed: {
+      seriesBar() {
+        return this.$store.getters.getProducts;
+      },
+      seriesArea(){
+        return this.$store.getters.getRevenue;
+      },
+      seriesVisitor(){
+        return this.$store.getters.getVisitor;
+      },
+    },
     
     methods:{
       fetchProducts() {
-      this.$store.dispatch("fetchProducts").then(() => {
-        this.seriesBar = this.$store.state.products;
-        console.log("ProductsData", this.seriesBar);
-      });
-    },
+        this.$store.dispatch("fetchProducts");
+      },
 
     fetchRevenues() {
-      this.$store.dispatch("fetchAllRevenues").then(() => {
-        this.seriesArea = this.$store.state.revenue;
-        console.log("RevenueData", this.seriesArea);
-      });
+      this.$store.dispatch("fetchAllRevenues");
     }, 
     
     fetchVisitors() {
-      this.$store.dispatch("fetchAllVisitor").then(() => {
-        this.seriesVisitor = this.$store.state.visitor;
-        console.log("visitorData", this.seriesVisitor);
-      });
+      this.$store.dispatch("fetchAllVisitor");
     }, 
     
     fetchTransactions() {
       this.$store.dispatch("fetchAllTransaction").then(() => {
         this.transactions = this.$store.state.transaction;
-        console.log("transactions Data", this.transactions);
       });
     }, 
     
     fetchUSERSs() {
       this.$store.dispatch("fetchUsers").then(() => {
         this.labels = this.$store.state.user;
-        console.log("UserData", this.labels);
       });
     },
   },

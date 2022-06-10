@@ -1,11 +1,10 @@
 <template>
   <!-- this header -->
-  <header class="bg-white dark:bg-gray-800 p-2 border-b-2 dark:border-gray-700">
+  <header class="bg-white dark:bg-gray-800 p-2 border-b-2 dark:border-gray-700 fixed top-0 left-0 right-0">
     <div class="wrap-header flex items-center justify-between flex-wrap">
       <div class="flex flex-no-shrink items-center">
         <button class="text-gray-500 lg:hidden ml-3 block" @click="sidebarToggle">
           <svg
-            xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
             role="img"
             width="2em"
